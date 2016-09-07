@@ -17,7 +17,7 @@
                 <li><a href="#" class="active">首页</a></li>
                 <li><a href="#">链接2</a></li>
                 <li><a href="#">链接3</a></li>
-                <li><a href="#">链接4</a></li>
+                <li class="sideBar_trigger"><a href="#">链接4</a></li>
             </ul>
         </nav>
         <div id="banner">
@@ -121,6 +121,21 @@
             </ul>
         </section>
     </div>
+    <div class="overLay"></div>
+    <div id="sideBar">
+        <ul>
+            <li><a href="#">item1</a></li>
+            <li><a href="#">item1</a></li>
+            <li><a href="#">item1</a></li>
+            <li><a href="#">item1</a></li>
+            <li><a href="#">item1</a></li>
+            <li><a href="#">item1</a></li>
+        </ul>
+    </div>
+
+    <button class="back-to-top">返回顶部</button>
+    <script type="text/javascript" src="js/jqeury.min.js"></script>
+    <script  type="text/javascript"  src="js/myBlog.js"></script>
 
 </div>
 <!--S=尾部-->
@@ -128,32 +143,5 @@
 <footer>
 
 </footer>
-<script type="text/javascript">
-    var banner = document.getElementById("banner");
-    banner.onclick = function (e) {
-        console.log("onclick" + e);
-        return e;
-    }
-    banner.onmousedown = function (e) {
-        console.log("onmousedown" + e);
-        return e;
-    }
-    banner.onmousemove = function (e) {
-        console.log("onmousemove" + e);
-        return e;
-    }
-    banner.onmouseup = function (e) {
-        console.log("onmouseup" + e);
-        return e;
-    }
-    banner.onmouseout = function (e) {
-        console.log("onmouseout" + e);
-        return e;
-    }
-    banner.onmouseover = function (e) {
-        console.log("onmouseover" + e);
-        return e;
-    }
-</script>
 </body>
 </html>
