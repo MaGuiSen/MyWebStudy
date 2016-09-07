@@ -1,0 +1,253 @@
+@charset "utf-8";
+nav {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 999;
+}
+
+#banner {
+    height: 700px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+nav ul li, nav .logo {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+nav .logo {
+    float: left;
+    padding-left: 10px;
+}
+
+nav ul li a {
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    color: #fff;
+}
+
+.logo a {
+    color: #fff;
+}
+
+#banner .inner {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px
+}
+
+#banner .inner h1 {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#banner button {
+    padding: 14px 40px;
+}
+
+#banner .inner button {
+    border: none;
+    padding: 14px 40px;
+    background-color: #51a3ff;
+    border-radius: 10px;
+    color: #eeeeee;
+}
+
+#banner .inner .more {
+    margin-top: 300px;
+}
+
+.sub-heading {
+    line-height: 30px;
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.hr {
+    /*分割线*/
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    margin: 20px auto;
+
+}
+
+.green-section {
+    text-align: center;
+    color: white;
+    background-color: #089db0;
+    padding: 100px 0;
+}
+
+.green-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.green-section .hr {
+    background-color: #078494;
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.green-section .icon-group .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #0d6f7c;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.gray-section {
+    background-color: #5e5e5e;
+    color: white;
+}
+
+.gray-section .img-section {
+    width: 45%;
+}
+
+.gray-section .img-section img {
+    width: 100%;
+}
+
+.gray-section .text-section {
+    width: 55%;
+    position: relative; /*位置相对的*/
+    top: 68px;
+    left: 50px;
+}
+
+.gray-section .text-section {
+    font-size: 24px;
+}
+
+.gray-section .text-section > * {
+    max-width: 90%;
+}
+
+.gray-section .text-section div {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+
+.article-preview {
+    font-size: 0;
+}
+
+.article-preview > div {
+    float: left;
+}
+
+/*清楚浮动的方式*/
+.article-preview:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.article-preview:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.purple-section {
+    background: #857ac7;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.purple-section .heading-wrapper {
+    text-align: center;
+}
+
+.purple-section .hr {
+    background: #373259;
+    width: 60%;
+}
+
+.clear {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.card-group {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card-group:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.card-group > li {
+    padding: 100px 20px;
+    width: 50%;
+    float: left;
+    min-height: 300px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.card-group > li:nth-child(1) {
+    background: rgba(0,0,0,0.02);
+}
+.card-group > li:nth-child(2) {
+    background: rgba(0,0,0,0.04);
+}
+.card-group > li:nth-child(3) {
+    background: rgba(0,0,0,0.08);
+}
+.card-group > li:nth-child(4) {
+    background: rgba(0,0,0,0.12);
+}
+.card-group > li:nth-child(5) {
+    background: rgba(0,0,0,0.16);
+}
+.card-group > li:nth-child(6) {
+    background: rgba(0,0,0,0.2);
+}
+
+.back{
+    /*设置背景延展和不重复，且位置不移动*/
+    background: url("../image/photo/banner.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+
+
+

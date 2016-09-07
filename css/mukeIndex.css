@@ -1,0 +1,88 @@
+@charset "utf-8";
+.comWidth {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.topBar {
+    height: 31px;
+    background-color: #f7f7f7;
+    line-height: 31px;
+}
+
+.collection {
+    background: url("../image/icon/icon_1.png") left center no-repeat;
+    padding-left: 20px;
+    background-size: 20px;
+    font-weight: bold;
+}
+
+.rightArea a:hover {
+    color: red;
+}
+
+/*logoBar*/
+.logoBar {
+    height: 140px;
+    background-color: blue;
+}
+
+.logo {
+    padding-left: 41px;
+    padding-top: 13px;
+}
+
+.search_box {
+    margin-top: 23px;
+    margin-left: 185px;
+    width: 430px;
+}
+
+.search_text {
+    width: 360px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    height: 35px;
+}
+
+.search_btn {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: red;
+    color: #fff;;
+}
+
+.shopCar {
+    width: 145px;
+    height: 35px;
+    background-color: gainsboro;
+    margin-top: 23px;
+}
+
+.shopText {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #FFFFFF;
+    height: 100%;
+    width: 87px;
+    line-height: 35px;
+    border-right: black solid 1px;
+    background: url("../image/icon/icon_1.png") 10px center no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+.shopNum {
+    width: 56px;
+    height: 35px;
+    line-height: 35px;
+    background: url("../image/icon/icon_1.png") 30px center no-repeat;
+    background-size: 20px;
+    padding-right: 30px;
+    color: #fff;
+    border: none;
+    text-align: right;
+}

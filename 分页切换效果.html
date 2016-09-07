@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--移动端必须要设置的适配-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>简书</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden; /*隐藏滚动条，这样就不能正常滚动，我们之后使用jquery进行滚动*/
+        }
+
+        #container, .sections, .section {
+            height: 100%;
+        }
+
+        #section0 {
+            text-align: center;
+            color: #fff;
+            background-color: goldenrod;
+        }
+
+        #section1 {
+            text-align: center;
+            color: #fff;
+            background-color: red;
+        }
+
+        #section2 {
+            text-align: center;
+            color: #fff;
+            background-color: palegreen;
+        }
+
+        #section3 {
+            text-align: center;
+            color: #fff;
+            background-color: blue;
+        }
+
+        .left{
+            float:left;
+            width: 25%;/*父元素的宽度的25%,根据个数来看*/
+        }
+    </style>
+</head>
+<body>
+<div id="container" style="width: 400%"><!--400%是屏幕宽度的4倍的意思-->
+    <div class="sections">
+        <div class="section left" id="section0"><h3>这是page</h3></div>
+        <div class="section left" id="section1"><h3>这是page</h3></div>
+        <div class="section left" id="section2"><h3>这是page</h3></div>
+        <div class="section left" id="section3"><h3>这是page</h3></div>
+    </div>
+</div>
+</body>
+</html>
