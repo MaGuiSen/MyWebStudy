@@ -38,6 +38,10 @@ nav ul li a {
     color: #fff;
 }
 
+.active{
+    border-bottom:2px solid white;
+}
+
 .logo a {
     color: #fff;
 }
